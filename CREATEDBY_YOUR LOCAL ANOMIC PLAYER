@@ -1,0 +1,336 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("ImageLabel")
+local MainLabel = Instance.new("TextLabel")
+local MainLabel_Roundify_12px = Instance.new("ImageLabel")
+local BetterShape = Instance.new("TextLabel")
+local MyCredits = Instance.new("TextLabel")
+local MyCredits_Roundify_12px = Instance.new("ImageLabel")
+local betterShape = Instance.new("TextLabel")
+local AnomicV = Instance.new("TextButton")
+local AnomicV_Roundify_12px = Instance.new("ImageLabel")
+local AimBot = Instance.new("TextButton")
+local AnomicV_Roundify_12px_2 = Instance.new("ImageLabel")
+local AnomicInfYield = Instance.new("TextButton")
+local AnomicV_Roundify_12px_3 = Instance.new("ImageLabel")
+local DESTROYGUI = Instance.new("TextButton")
+local AnomicV_Roundify_12px_4 = Instance.new("ImageLabel")
+local IGNORE = Instance.new("ImageLabel")
+local IGNORE_2 = Instance.new("TextLabel")
+local TextLabel_Roundify_12px = Instance.new("ImageLabel")
+local IGNORE_3 = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_2 = Instance.new("ImageLabel")
+local IGNORE_4 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.BackgroundTransparency = 1.000
+main.Position = UDim2.new(0.274590164, 0, 0.303296745, 0)
+main.Size = UDim2.new(0, 329, 0, 179)
+main.Image = "rbxassetid://3570695787"
+main.ImageColor3 = Color3.fromRGB(33, 33, 33)
+main.ScaleType = Enum.ScaleType.Slice
+main.SliceCenter = Rect.new(100, 100, 100, 100)
+main.SliceScale = 0.120
+main.Active = true
+main.Draggable = true
+
+MainLabel.Name = "Main Label"
+MainLabel.Parent = main
+MainLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainLabel.BackgroundTransparency = 1.000
+MainLabel.BorderSizePixel = 0
+MainLabel.Size = UDim2.new(0, 329, 0, 40)
+MainLabel.ZIndex = 2
+MainLabel.Font = Enum.Font.SourceSans
+MainLabel.Text = "Custom Anomic Script Loader V1.5"
+MainLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+MainLabel.TextSize = 16.000
+
+MainLabel_Roundify_12px.Name = "Main Label_Roundify_12px"
+MainLabel_Roundify_12px.Parent = MainLabel
+MainLabel_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+MainLabel_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainLabel_Roundify_12px.BackgroundTransparency = 1.000
+MainLabel_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+MainLabel_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+MainLabel_Roundify_12px.Image = "rbxassetid://3570695787"
+MainLabel_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+MainLabel_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+MainLabel_Roundify_12px.SliceScale = 0.120
+
+BetterShape.Name = "BetterShape"
+BetterShape.Parent = main
+BetterShape.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BetterShape.BorderSizePixel = 0
+BetterShape.Position = UDim2.new(0, 0, 0.167597771, 0)
+BetterShape.Size = UDim2.new(0, 329, 0, 10)
+BetterShape.Font = Enum.Font.SourceSans
+BetterShape.Text = " "
+BetterShape.TextColor3 = Color3.fromRGB(0, 0, 0)
+BetterShape.TextSize = 14.000
+
+MyCredits.Name = "MyCredits"
+MyCredits.Parent = main
+MyCredits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MyCredits.BackgroundTransparency = 1.000
+MyCredits.BorderSizePixel = 0
+MyCredits.Position = UDim2.new(0, 0, 0.860335171, 0)
+MyCredits.Size = UDim2.new(0, 329, 0, 25)
+MyCredits.ZIndex = 2
+MyCredits.Font = Enum.Font.SourceSans
+MyCredits.Text = "Anomic Script Loader Made By: Your Local Anomic Player"
+MyCredits.TextColor3 = Color3.fromRGB(0, 0, 0)
+MyCredits.TextSize = 14.000
+
+MyCredits_Roundify_12px.Name = "MyCredits_Roundify_12px"
+MyCredits_Roundify_12px.Parent = MyCredits
+MyCredits_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+MyCredits_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MyCredits_Roundify_12px.BackgroundTransparency = 1.000
+MyCredits_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+MyCredits_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+MyCredits_Roundify_12px.Image = "rbxassetid://3570695787"
+MyCredits_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+MyCredits_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+MyCredits_Roundify_12px.SliceScale = 0.120
+
+betterShape.Name = "betterShape"
+betterShape.Parent = main
+betterShape.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+betterShape.BorderSizePixel = 0
+betterShape.Position = UDim2.new(0, 0, 0.860335171, 0)
+betterShape.Size = UDim2.new(0, 329, 0, 11)
+betterShape.Font = Enum.Font.SourceSans
+betterShape.Text = " "
+betterShape.TextColor3 = Color3.fromRGB(0, 0, 0)
+betterShape.TextSize = 14.000
+
+AnomicV.Name = "AnomicV"
+AnomicV.Parent = main
+AnomicV.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AnomicV.BackgroundTransparency = 1.000
+AnomicV.BorderSizePixel = 0
+AnomicV.Position = UDim2.new(0.0911854133, 0, 0.30726257, 0)
+AnomicV.Size = UDim2.new(0, 104, 0, 35)
+AnomicV.ZIndex = 2
+AnomicV.Font = Enum.Font.SourceSans
+AnomicV.Text = "Anomic V"
+AnomicV.TextColor3 = Color3.fromRGB(0, 0, 0)
+AnomicV.TextSize = 19.000
+AnomicV.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/HELLLO1073/RobloxStuff/main/SMain.lua"))()
+end)
+
+
+
+AnomicV_Roundify_12px.Name = "AnomicV_Roundify_12px"
+AnomicV_Roundify_12px.Parent = AnomicV
+AnomicV_Roundify_12px.Active = true
+AnomicV_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+AnomicV_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AnomicV_Roundify_12px.BackgroundTransparency = 1.000
+AnomicV_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+AnomicV_Roundify_12px.Selectable = true
+AnomicV_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+AnomicV_Roundify_12px.Image = "rbxassetid://3570695787"
+AnomicV_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+AnomicV_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+AnomicV_Roundify_12px.SliceScale = 0.120
+
+AimBot.Name = "AimBot"
+AimBot.Parent = main
+AimBot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AimBot.BackgroundTransparency = 1.000
+AimBot.BorderSizePixel = 0
+AimBot.Position = UDim2.new(0.59270519, 0, 0.30726257, 0)
+AimBot.Size = UDim2.new(0, 104, 0, 35)
+AimBot.ZIndex = 2
+AimBot.Font = Enum.Font.SourceSans
+AimBot.Text = "One Shot Kill"
+AimBot.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimBot.TextSize = 18.000
+AimBot.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Shariiii/Anomic-Stuff/main/OP%20OP%20Gun%20Script%20V0.1", true))()
+end)
+
+
+
+AnomicV_Roundify_12px_2.Name = "AnomicV_Roundify_12px"
+AnomicV_Roundify_12px_2.Parent = AimBot
+AnomicV_Roundify_12px_2.Active = true
+AnomicV_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+AnomicV_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AnomicV_Roundify_12px_2.BackgroundTransparency = 1.000
+AnomicV_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+AnomicV_Roundify_12px_2.Selectable = true
+AnomicV_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+AnomicV_Roundify_12px_2.Image = "rbxassetid://3570695787"
+AnomicV_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+AnomicV_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+AnomicV_Roundify_12px_2.SliceScale = 0.120
+
+AnomicInfYield.Name = "AnomicInfYield"
+AnomicInfYield.Parent = main
+AnomicInfYield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AnomicInfYield.BackgroundTransparency = 1.000
+AnomicInfYield.BorderSizePixel = 0
+AnomicInfYield.Position = UDim2.new(0.0911854133, 0, 0.581005573, 0)
+AnomicInfYield.Size = UDim2.new(0, 104, 0, 35)
+AnomicInfYield.ZIndex = 2
+AnomicInfYield.Font = Enum.Font.SourceSans
+AnomicInfYield.Text = "Anomic Infinite Yield"
+AnomicInfYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+AnomicInfYield.TextSize = 13.000
+AnomicInfYield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ALWEB2/robloxhacks/main/anomicultimate.lua'))()
+end)
+
+
+
+AnomicV_Roundify_12px_3.Name = "AnomicV_Roundify_12px"
+AnomicV_Roundify_12px_3.Parent = AnomicInfYield
+AnomicV_Roundify_12px_3.Active = true
+AnomicV_Roundify_12px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+AnomicV_Roundify_12px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AnomicV_Roundify_12px_3.BackgroundTransparency = 1.000
+AnomicV_Roundify_12px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+AnomicV_Roundify_12px_3.Selectable = true
+AnomicV_Roundify_12px_3.Size = UDim2.new(1, 0, 1, 0)
+AnomicV_Roundify_12px_3.Image = "rbxassetid://3570695787"
+AnomicV_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
+AnomicV_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+AnomicV_Roundify_12px_3.SliceScale = 0.120
+
+DESTROYGUI.Name = "DESTROYGUI"
+DESTROYGUI.Parent = main
+DESTROYGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DESTROYGUI.BackgroundTransparency = 1.000
+DESTROYGUI.BorderSizePixel = 0
+DESTROYGUI.Position = UDim2.new(0.592705131, 0, 0.581005573, 0)
+DESTROYGUI.Size = UDim2.new(0, 104, 0, 35)
+DESTROYGUI.ZIndex = 2
+DESTROYGUI.Font = Enum.Font.SourceSans
+DESTROYGUI.Text = "DESTROY GUI"
+DESTROYGUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+DESTROYGUI.TextSize = 18.000
+
+AnomicV_Roundify_12px_4.Name = "AnomicV_Roundify_12px"
+AnomicV_Roundify_12px_4.Parent = DESTROYGUI
+AnomicV_Roundify_12px_4.Active = true
+AnomicV_Roundify_12px_4.AnchorPoint = Vector2.new(0.5, 0.5)
+AnomicV_Roundify_12px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AnomicV_Roundify_12px_4.BackgroundTransparency = 1.000
+AnomicV_Roundify_12px_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+AnomicV_Roundify_12px_4.Selectable = true
+AnomicV_Roundify_12px_4.Size = UDim2.new(1, 0, 1, 0)
+AnomicV_Roundify_12px_4.Image = "rbxassetid://3570695787"
+AnomicV_Roundify_12px_4.ScaleType = Enum.ScaleType.Slice
+AnomicV_Roundify_12px_4.SliceCenter = Rect.new(100, 100, 100, 100)
+AnomicV_Roundify_12px_4.SliceScale = 0.120
+
+IGNORE.Name = "IGNORE"
+IGNORE.Parent = ScreenGui
+IGNORE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+IGNORE.BackgroundTransparency = 1.000
+IGNORE.Position = UDim2.new(0.24043715, 0, 0.169230789, 0)
+IGNORE.Size = UDim2.new(0, 379, 0, 300)
+IGNORE.ZIndex = 3
+IGNORE.Image = "rbxassetid://3570695787"
+IGNORE.ScaleType = Enum.ScaleType.Slice
+IGNORE.SliceCenter = Rect.new(100, 100, 100, 100)
+IGNORE.SliceScale = 0.120
+
+IGNORE_2.Name = "IGNORE"
+IGNORE_2.Parent = IGNORE
+IGNORE_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+IGNORE_2.BackgroundTransparency = 1.000
+IGNORE_2.BorderSizePixel = 0
+IGNORE_2.Size = UDim2.new(0, 379, 0, 61)
+IGNORE_2.ZIndex = 5
+IGNORE_2.Font = Enum.Font.SourceSans
+IGNORE_2.Text = "PASSWORD REQUIRED"
+IGNORE_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+IGNORE_2.TextSize = 20.000
+
+TextLabel_Roundify_12px.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px.Parent = IGNORE_2
+TextLabel_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px.ZIndex = 4
+TextLabel_Roundify_12px.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px.ImageColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px.SliceScale = 0.120
+
+IGNORE_3.Name = "IGNORE"
+IGNORE_3.Parent = IGNORE
+IGNORE_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+IGNORE_3.BackgroundTransparency = 1.000
+IGNORE_3.BorderSizePixel = 0
+IGNORE_3.Position = UDim2.new(0.211081788, 0, 0.50666672, 0)
+IGNORE_3.Size = UDim2.new(0, 220, 0, 48)
+IGNORE_3.ZIndex = 5
+IGNORE_3.Font = Enum.Font.SourceSans
+IGNORE_3.Text = "ENTER PASSWORD"
+IGNORE_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+IGNORE_3.TextSize = 20.000
+
+TextLabel_Roundify_12px_2.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_2.Parent = IGNORE_3
+TextLabel_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_2.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_2.ZIndex = 4
+TextLabel_Roundify_12px_2.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_2.SliceScale = 0.120
+
+IGNORE_4.Name = "IGNORE"
+IGNORE_4.Parent = IGNORE
+IGNORE_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+IGNORE_4.BorderSizePixel = 0
+IGNORE_4.Position = UDim2.new(0.720316648, 0, 0.0699999928, 0)
+IGNORE_4.Size = UDim2.new(0, 14, 0, 18)
+IGNORE_4.ZIndex = 5
+IGNORE_4.Font = Enum.Font.SourceSans
+IGNORE_4.Text = "!"
+IGNORE_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+IGNORE_4.TextSize = 20.000
+
+-- Scripts:
+
+local function XVZJGKC_fake_script() -- DESTROYGUI.DESTROYGUI 
+	local script = Instance.new('LocalScript', DESTROYGUI)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(XVZJGKC_fake_script)()
+local function FYYKWH_fake_script() -- IGNORE_4.PasswordScreen 
+	local script = Instance.new('LocalScript', IGNORE_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(FYYKWH_fake_script)()
